@@ -1,8 +1,8 @@
 {
-  "name": "gitbook-plugin-versions-select",
+  "name": "gitbook-plugin-versions-select-revised",
   "description": "Fork of versions plugin with selected status based on url.",
   "main": "index.js",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "scripts": {
     "lint": "eslint index.js test.js, assets/**",
     "lint:fix": "npm run lint -- --fix",

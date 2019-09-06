@@ -70,8 +70,8 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
     if (pluginConfig.options) updateVersions(pluginConfig.options);
 
         // Make sure we have a current book.json
-    if (pluginConfig.gitbookConfigURL) fetchBookOptionsVersions(pluginConfig.gitbookConfigURL);
-    else fetchBookVersions(pluginConfig.type || 'branches');
+    // if (pluginConfig.gitbookConfigURL) fetchBookOptionsVersions(pluginConfig.gitbookConfigURL);
+    // else fetchBookVersions(pluginConfig.type || 'branches');
   });
 
   gitbook.events.bind('page.change', function () {
